@@ -1,0 +1,1072 @@
+/* 
+header {
+	position:relative;
+	left:0;
+	top:0;
+	width:100%;
+	min-height:120px;
+	padding:50px 0;
+	color:#fff;
+	    background: #383838 url(https://www.athenadesignstudio.com/plugins/switch/images/bg.jpg) no-repeat center center;
+	margin-bottom:30px
+}
+
+Logo
+header .logo {
+	clear:both;
+    display:block;
+	text-align:center;
+    padding-bottom:10px;
+}
+
+Title
+header h1 {
+    font-weight:300;
+    font-size:24px;
+    color:#eee;	
+	letter-spacing:2px;
+	text-align:center;
+	text-transform:uppercase;
+	margin:0 !important;
+	padding-bottom:25px;
+}
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open Sans:400,600,800');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+input,
+p,
+a {
+    font-family: "Open Sans";
+    margin: 0px;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+}
+
+body {
+    background-color: #F1F2F3;
+}
+
+.container-fluid,
+.container {
+    max-width: 1200px;
+}
+
+.card-container {
+    padding: 100px 0px;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+.profile-card-1 {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-image: url(../img/profile-bg-1.jpg);
+    background-position: center;
+    padding-top: 100px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    max-width: 300px;
+}
+
+.profile-card-1 .profile-content {
+    position: relative;
+    background-color: #FFF;
+    padding: 70px 20px 20px 20px;
+    text-align: center;
+}
+
+.profile-card-1 .profile-img {
+    position: absolute;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+    top: -50px;
+    transition: all 0.25s linear;
+    transform-style: preserve-3d;
+}
+
+.profile-card-1 .profile-img img {
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card-1 .profile-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #021830;
+}
+
+.profile-card-1 .profile-address {
+    color: #777;
+    font-size: 12px;
+    margin: 0px 0px 15px 0px;
+}
+
+.profile-card-1 .profile-description {
+    font-size: 13px;
+    padding: 5px 10px;
+    color: #777;
+}
+
+.profile-card-1 .profile-icons .fa {
+    margin: 5px;
+    color: #777;
+}
+
+.profile-card-1:hover {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card-1:hover .profile-img {
+    transform: rotateY(180deg);
+}
+
+.profile-card-2 {
+    max-width: 300px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+
+.profile-card-3 {
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 25px 15px;
+}
+
+.profile-card-3 .profile-name {
+    font-weight: bold;
+    color: #21304e;
+}
+
+.profile-card-3 .profile-location {
+    color: #999;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.profile-card-3 img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 50%;
+    transition: all linear 0.25s;
+}
+
+.profile-card-3 .profile-description {
+    font-size: 13px;
+    color: #777;
+    padding: 10px;
+}
+
+.profile-card-3 .profile-icons {
+    margin: 15px 0px;
+}
+
+.profile-card-3 .profile-icons .fa {
+    color: #fe455a;
+    margin: 0px 5px;
+}
+
+.profile-card-3:hover img {
+    height: 110px;
+    width: 110px;
+    margin: 5px auto;
+}
+
+.profile-card-4 {
+    max-width: 300px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.profile-card-4 img {
+    transition: all 0.25s linear;
+}
+
+.profile-card-4 .profile-content {
+    position: relative;
+    padding: 15px;
+    background-color: #FFF;
+}
+
+.profile-card-4 .profile-name {
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -70px;
+    color: #FFF;
+    font-size: 17px;
+}
+
+.profile-card-4 .profile-name p {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+.profile-card-4 .profile-description {
+    color: #777;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.profile-card-4 .profile-overview {
+    padding: 15px 0px;
+}
+
+.profile-card-4 .profile-overview p {
+    font-size: 10px;
+    font-weight: 600;
+    color: #777;
+}
+
+.profile-card-4 .profile-overview h4 {
+    color: #273751;
+    font-weight: bold;
+}
+
+.profile-card-4 .profile-content::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    background-color: #FFF;
+    z-index: 0;
+    transform: skewY(3deg);
+}
+
+.profile-card-4:hover img {
+    transform: rotate(5deg) scale(1.1, 1.1);
+    filter: brightness(110%);
+}
+
+.profile-card-5 {
+    max-width: 300px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 50px 15px 25px 15px;
+}
+
+.profile-card-5 img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 50%;
+    transition: all linear 0.25s;
+    position: relative;
+}
+
+.profile-card-5::before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    right: 0px;
+    left: 0px;
+    height: 170px;
+    background-color: #4fb96e;
+    transform: skewY(-20deg);
+}
+
+.profile-card-5 .profile-name {
+    padding-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-card-5 .profile-designation {
+    font-size: 13px;
+    color: #777;
+}
+
+.profile-card-3 .profile-location {
+    color: #999;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.profile-card-5 .profile-description {
+    font-size: 13px;
+    color: #777;
+    padding: 10px;
+}
+
+.profile-card-5 .profile-overview {
+    padding: 15px 0px;
+}
+
+.profile-card-5 .profile-overview p {
+    color: #777;
+    font-size: 13px;
+}
+
+.profile-card-5 .profile-overview h2 {
+    font-weight: bold;
+    color: #1e2832;
+}
+
+.profile-card-5 .profile-icons .fa {
+    margin: 7px;
+    color: #4fb96e;
+}
+
+.profile-card-5:hover img {
+    transform: rotate(-5deg);
+}
+
+.profile-card-6 {
+    max-width: 300px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.profile-card-6 img {
+    transition: all 0.15s linear;
+}
+
+.profile-card-6 .profile-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 15px 20px;
+    background: linear-gradient(140deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0) 50%);
+    transition: all 0.15s linear;
+}
+
+.profile-card-6 .profile-position {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4);
+    left: 30px;
+    top: 100px;
+    transition: all 0.15s linear;
+}
+
+.profile-card-6 .profile-overview {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0));
+    color: #FFF;
+    padding: 50px 0px 20px 0px;
+    transition: all 0.15s linear;
+}
+
+.profile-card-6 .profile-overview h3 {
+    font-weight: bold;
+}
+
+.profile-card-6 .profile-overview p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.profile-card-6:hover img {
+    filter: brightness(80%);
+}
+
+.profile-card-6:hover .profile-name {
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.profile-card-6:hover .profile-position {
+    left: 40px;
+}
+
+.profile-card-6:hover .profile-overview {
+    padding-bottom: 25px;
+}
+
+.profile-card-7 {
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.profile-card-7 .profile-content {
+    padding: 60px 30px 30px 30px;
+    background-color: #FFF;
+    position: relative;
+}
+
+.profile-card-7 .profile-content img {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    top: -40px;
+    border: 5px solid #FFF;
+}
+
+.profile-card-7 .profile-content .profile-name {
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    top: -35px;
+    left: 125px;
+    color: #FFF;
+}
+
+.profile-card-7 .profile-overview {
+    padding: 5px 0px;
+}
+
+.profile-card-7 .profile-overview p {
+    color: #777;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.profile-card-7 .profile-overview h5 {
+    color: #142437;
+    font-weight: bold;
+}
+
+.profile-card-8 {
+    background: linear-gradient(#09121c, #36445a);
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: all 0.25s linear;
+}
+
+.profile-card-8 .profile-name {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 25px;
+    color: #58d683;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.profile-card-8 .profile-designation {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.profile-card-8 .profile-icons {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 80px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.profile-card-8 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-8:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.profile-card-9 {
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 30px 15px;
+    background-color: #FFF;
+    transition: all 0.25s linear;
+}
+
+.profile-card-9 img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.profile-card-9 .profile-name {
+    font-size: 15px;
+    color: #3249b9;
+    font-weight: 600;
+}
+
+.profile-card-9 .profile-designation {
+    font-size: 13px;
+    color: #777;
+}
+
+.profile-card-9 .profile-description {
+    padding: 10px;
+    font-size: 13px;
+    color: #777;
+    margin: 15px 0px;
+    background-color: #F1F2F3;
+    border-radius: 5px;
+}
+
+.profile-card-9 a {
+    padding: 10px 15px;
+    background-color: #3249b9;
+    color: #FFF;
+    font-size: 11px;
+    border-radius: 25px;
+}
+
+.profile-card-9:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.profile-card-10 {
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 30px 15px;
+    background-color: #1f2124;
+    color: #EEE;
+}
+
+.profile-card-10 img {
+    margin: 10px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    box-shadow: 0px 0px 0px 2px #64c17b;
+    transition: all 0.25s linear;
+}
+.intro-section1 {
+  position: relative;
+   background-color: black;
+   }
+  .intro-section1, .intro-section1 .container > .row {
+    height: 10vh;
+    min-height: 90px; }
+  .intro-section1.single-cover, .intro-section.single-cover .container > .row {
+    height: 50vh;
+    min-height: 400px; }
+  .intro-section1 h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1.5rem; }
+  .intro-section1 p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem; }
+.profile-card-10 .profile-name {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.profile-card-10 .profile-location {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.profile-card-10 .profile-description {
+    padding: 10px;
+    font-size: 13px;
+}
+
+.profile-card-10 .profile-icons .fa {
+    color: #ffc75e;
+    margin: 10px;
+}
+
+.profile-card-10:hover img {
+    transform: scale(1.1);
+} */
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #fff;
+}
+
+.conatiner {
+	width: 100%;
+	height: 500px;
+}
+.wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.box {
+	margin: 10px;
+	width: 300px;
+	height: 490px;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.box:hover {
+	margin-bottom: -10px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+.box h1 {
+	color: #fff;
+	padding: 30px;
+	margin-top: 100px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 25px;
+	background: rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.date h4 {
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 3px;
+	text-shadow: 0 0 3px rgba(0,0,0,0.9);
+}
+.poster {
+	width: 130px;
+	height:130px;
+	margin: 120px auto;
+	position: relative;
+	border-radius: 100px;
+}
+.poster h4 {
+	top: 16px;
+	color: #fff;
+	position: relative;
+	font-size: 80px;
+	text-align: center;
+	font-weight: 100;
+}
+.one {
+	background: url('https://kbimages1-a.akamaihd.net/cccaf7d7-0a65-41d1-84c5-4123c5839e7b/1200/1200/False/oliver-twist-illustrated-edition.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.two {
+	background: url('https://source.unsplash.com/820x900');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.three {
+	background: url('https://source.unsplash.com/500x500');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.five {
+	background: url('https://source.unsplash.com/550x520');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.six {
+	background: url('https://source.unsplash.com/660x630');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.seven {
+	background: url('https://source.unsplash.com/700x770');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.eight {
+	background: url('https://source.unsplash.com/880x820');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.nine {
+	background: url('https://source.unsplash.com/898x820');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.ten {
+	background: url('https://source.unsplash.com/8998x920');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.eleven {
+	background: url('https://source.unsplash.com/898x960');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.tlv {
+	background: url('https://source.unsplash.com/999x888');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.thirteen {
+	background: url('https://source.unsplash.com/1000x777');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ftn {
+	background: url('https://source.unsplash.com/2000x777');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.fith {
+	background: url('https://source.unsplash.com/2000x1000');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.sith {
+	background: url('https://source.unsplash.com/3000x1000');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sevth {
+	background: url('https://source.unsplash.com/9000x9000');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* POSTER*/
+.p1 {
+	background: #2b5876;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#4e4376), to(#2b5876));
+	background: -webkit-linear-gradient(left, #4e4376, #2b5876);
+	background: -o-linear-gradient(left, #4e4376, #2b5876);
+	background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px darkblue;
+	        box-shadow: 0 0 20px darkblue;
+}
+
+.p2 {
+	background: #f857a6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#ff5858), to(#f857a6));
+	background: -webkit-linear-gradient(left, #ff5858, #f857a6);
+	background: -o-linear-gradient(left, #ff5858, #f857a6);
+	background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px #fa3380;
+	        box-shadow: 0 0 20px #fa3380;
+}
+
+.p3 {
+	background: #4776E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#8E54E9), to(#4776E6));
+	background: -webkit-linear-gradient(left, #8E54E9, #4776E6);
+	background: -o-linear-gradient(left, #8E54E9, #4776E6);
+	background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px lightblue;
+	        box-shadow: 0 0 20px lightblue;
+}
+
+.p4 {
+	background: #1FA2FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#A6FFCB), color-stop(#12D8FA), to(#1FA2FF));
+	background: -webkit-linear-gradient(left, #A6FFCB, #12D8FA, #1FA2FF);
+	background: -o-linear-gradient(left, #A6FFCB, #12D8FA, #1FA2FF);
+	background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px skyblue;
+	        box-shadow: 0 0 20px skyblue;
+}
+
+
+.p5 {
+	background: #AA076B;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#61045F), to(#AA076B));
+	background: -webkit-linear-gradient(left, #61045F, #AA076B);
+	background: -o-linear-gradient(left, #61045F, #AA076B);
+	background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px purple;
+	        box-shadow: 0 0 20px purple;
+}
+
+.p6 {
+	background: #DA22FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#9733EE), to(#DA22FF));
+	background: -webkit-linear-gradient(left, #9733EE, #DA22FF);
+	background: -o-linear-gradient(left, #9733EE, #DA22FF);
+	background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px violet;
+	        box-shadow: 0 0 20px violet;
+}
+
+.p7 {
+	background: #02AAB0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#00CDAC), to(#02AAB0));
+	background: -webkit-linear-gradient(left, #00CDAC, #02AAB0);
+	background: -o-linear-gradient(left, #00CDAC, #02AAB0);
+	background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px lightgreen;
+	        box-shadow: 0 0 20px lightgreen;
+}
+.p8 {
+	background: #5433FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#A5FECB), color-stop(#20BDFF), to(#5433FF));
+	background: -webkit-linear-gradient(left, #A5FECB, #20BDFF, #5433FF);
+	background: -o-linear-gradient(left, #A5FECB, #20BDFF, #5433FF);
+	background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px lightblue;
+	        box-shadow: 0 0 20px lightblue;
+}
+.p9 {
+	background: #2b5876;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fa3, #fa3380);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#fa3), to(#fa3380));
+	background: -webkit-linear-gradient(left, #fa3, #fa3380);
+	background: -o-linear-gradient(left, #fa3, #fa3380);
+	background: linear-gradient(to right, #fa3, #fa3380); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px #fa3380;
+	        box-shadow: 0 0 20px #fa3380;
+}
+
+.p10 {
+	background: #2b5876;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, deepskyblue, lightblue);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(deepskyblue), to(lightblue));
+	background: -webkit-linear-gradient(left, deepskyblue, lightblue);
+	background: -o-linear-gradient(left, deepskyblue, lightblue);
+	background: linear-gradient(to right, deepskyblue, lightblue); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px darkblue;
+	        box-shadow: 0 0 20px darkblue;
+}
+
+.p11 {
+	background: #F2994A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#F2C94C), to(#F2994A));
+	background: -webkit-linear-gradient(left, #F2C94C, #F2994A);
+	background: -o-linear-gradient(left, #F2C94C, #F2994A);
+	background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px lightyellow;
+	        box-shadow: 0 0 20px lightyellow;
+}
+
+.p12 {
+	background: #A770EF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#FDB99B), color-stop(#CF8BF3), to(#A770EF));
+	background: -webkit-linear-gradient(left, #FDB99B, #CF8BF3, #A770EF);
+	background: -o-linear-gradient(left, #FDB99B, #CF8BF3, #A770EF);
+	background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px purple;
+	        box-shadow: 0 0 20px purple;
+}
+
+.p13 {
+	background: #f4c4f3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#fc67fa), to(#f4c4f3));
+	background: -webkit-linear-gradient(left, #fc67fa, #f4c4f3);
+	background: -o-linear-gradient(left, #fc67fa, #f4c4f3);
+	background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px pink;
+	        box-shadow: 0 0 20px pink;
+}
+.p14 {
+	background: #00c3ff;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#ffff1c), to(#00c3ff));
+	background: -webkit-linear-gradient(left, #ffff1c, #00c3ff);
+	background: -o-linear-gradient(left, #ffff1c, #00c3ff);
+	background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px olive;
+	        box-shadow: 0 0 20px olive;
+}
+.p15 {
+	background: #5614B0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #DBD65C, #5614B0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#DBD65C), to(#5614B0));
+	background: -webkit-linear-gradient(left, #DBD65C, #5614B0);
+	background: -o-linear-gradient(left, #DBD65C, #5614B0);
+	background: linear-gradient(to right, #DBD65C, #5614B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px olive;
+	        box-shadow: 0 0 20px olive;
+}
+
+.p16 {
+	background: #fc00ff;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#00dbde), to(#fc00ff));
+	background: -webkit-linear-gradient(left, #00dbde, #fc00ff);
+	background: -o-linear-gradient(left, #00dbde, #fc00ff);
+	background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px olive;
+	        box-shadow: 0 0 20px olive;
+}
+
+
+/*  FOLLOW*/
+.Follow {	  background:url("https://pbs.twimg.com/profile_images/959092900708544512/v4Db9QRv_bigger.jpg")no-repeat center / contain;
+	width: 50px;
+	height: 50px;
+	bottom: 9px;
+	right: 20px;
+	display:block;
+	position:fixed;
+	border-radius:50%;
+	z-index:999;
+	animation:  rotation 10s infinite linear;
+	}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
